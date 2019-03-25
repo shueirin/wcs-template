@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,700');
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.5pt;
+}
+body, ul, ol, p  {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    line-height: 150%;
+    font-size: 0.9rem;
+    color: darkslategrey;
+}
+
+.art-idx {
+    border:1px solid #cdddcd;
+    padding: 1em;   
+}
+
+article,
+.art-idx > div
+ {
+    display: flex;
+    flex-direction: row;
+}
+article {
+    width: 75%;
+}
+aside {
+    width: 25%;
+}
+figure > figcaption,
+aside ul {
+    font-size: 80%;
+}
